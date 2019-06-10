@@ -11,7 +11,7 @@ uChangePosition.init(elements, callback, isContinue);
 
 ``` bash
 
-callback(dragElement, dropToElement) { // dragElement 拖动元素 dropToElement 拖动到对应的元素
+callback(dragElement, dropToElement, dragIndex, dropElemIndex) { // dragElement 拖动元素 dropToElement 放入的元素 dragIndex 拖动元素的下下标 dropElemIndex 放入元素的下标
 
 }
 
