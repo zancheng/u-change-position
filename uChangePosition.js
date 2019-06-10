@@ -46,7 +46,7 @@
           }
           var dropElemIndex = _CORE.getIndex(parentElem, dragElem); // 获取拖动元素下标
           // callback回调
-          _callback(dragElem, dropElem);
+          _callback(dragElem, dropElem, dragIndex, dropElemIndex);
           if (!_isContinue) {
             return false;
           }
